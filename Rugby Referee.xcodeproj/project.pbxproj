@@ -1,0 +1,1187 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEAB8AB92670CEF300C1E225 /* Rugby_RefereeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AB82670CEF300C1E225 /* Rugby_RefereeApp.swift */; };
+		DEAB8ABB2670CEF300C1E225 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8ABA2670CEF300C1E225 /* ContentView.swift */; };
+		DEAB8ABD2670CEF300C1E225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8ABC2670CEF300C1E225 /* Assets.xcassets */; };
+		DEAB8AC02670CEF300C1E225 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8ABF2670CEF300C1E225 /* Preview Assets.xcassets */; };
+		DEAB8ACA2670CEF400C1E225 /* Rugby_RefereeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AC92670CEF400C1E225 /* Rugby_RefereeTests.swift */; };
+		DEAB8AD42670CEF400C1E225 /* Rugby_RefereeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AD32670CEF400C1E225 /* Rugby_RefereeUITests.swift */; };
+		DEAB8AD82670CEF400C1E225 /* Rugby Referee WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DEAB8AD72670CEF400C1E225 /* Rugby Referee WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DEAB8ADD2670CEF400C1E225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8ADC2670CEF400C1E225 /* Assets.xcassets */; };
+		DEAB8AE32670CEF500C1E225 /* Rugby Referee WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DEAB8AE22670CEF500C1E225 /* Rugby Referee WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DEAB8AE82670CEF500C1E225 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AE72670CEF500C1E225 /* ContentView.swift */; };
+		DEAB8AEA2670CEF500C1E225 /* Rugby_RefereeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AE92670CEF500C1E225 /* Rugby_RefereeApp.swift */; };
+		DEAB8AEC2670CEF500C1E225 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AEB2670CEF500C1E225 /* ComplicationController.swift */; };
+		DEAB8AEE2670CEF500C1E225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8AED2670CEF500C1E225 /* Assets.xcassets */; };
+		DEAB8AF12670CEF500C1E225 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8AF02670CEF500C1E225 /* Preview Assets.xcassets */; };
+		DEAB8AFC2670CEF500C1E225 /* Rugby_Referee_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AFB2670CEF500C1E225 /* Rugby_Referee_WatchKit_AppTests.swift */; };
+		DEAB8B062670CEF500C1E225 /* Rugby_Referee_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8B052670CEF500C1E225 /* Rugby_Referee_WatchKit_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEAB8AC62670CEF400C1E225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAB8AAD2670CEF200C1E225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAB8AB42670CEF300C1E225;
+			remoteInfo = "Rugby Referee";
+		};
+		DEAB8AD02670CEF400C1E225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAB8AAD2670CEF200C1E225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAB8AB42670CEF300C1E225;
+			remoteInfo = "Rugby Referee";
+		};
+		DEAB8AD92670CEF400C1E225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAB8AAD2670CEF200C1E225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAB8AD62670CEF400C1E225;
+			remoteInfo = "Rugby Referee WatchKit App";
+		};
+		DEAB8AE42670CEF500C1E225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAB8AAD2670CEF200C1E225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAB8AE12670CEF500C1E225;
+			remoteInfo = "Rugby Referee WatchKit Extension";
+		};
+		DEAB8AF82670CEF500C1E225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAB8AAD2670CEF200C1E225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAB8AE12670CEF500C1E225;
+			remoteInfo = "Rugby Referee WatchKit Extension";
+		};
+		DEAB8B022670CEF500C1E225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAB8AAD2670CEF200C1E225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAB8AD62670CEF400C1E225;
+			remoteInfo = "Rugby Referee WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEAB8B0C2670CEF500C1E225 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DEAB8AE32670CEF500C1E225 /* Rugby Referee WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8B102670CEF500C1E225 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DEAB8AD82670CEF400C1E225 /* Rugby Referee WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DEAB8AB52670CEF300C1E225 /* Rugby Referee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rugby Referee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAB8AB82670CEF300C1E225 /* Rugby_RefereeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_RefereeApp.swift; sourceTree = "<group>"; };
+		DEAB8ABA2670CEF300C1E225 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DEAB8ABC2670CEF300C1E225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEAB8ABF2670CEF300C1E225 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEAB8AC52670CEF400C1E225 /* Rugby RefereeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rugby RefereeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAB8AC92670CEF400C1E225 /* Rugby_RefereeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_RefereeTests.swift; sourceTree = "<group>"; };
+		DEAB8ACF2670CEF400C1E225 /* Rugby RefereeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rugby RefereeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAB8AD32670CEF400C1E225 /* Rugby_RefereeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_RefereeUITests.swift; sourceTree = "<group>"; };
+		DEAB8AD72670CEF400C1E225 /* Rugby Referee WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rugby Referee WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAB8ADC2670CEF400C1E225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEAB8AE22670CEF500C1E225 /* Rugby Referee WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rugby Referee WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAB8AE72670CEF500C1E225 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DEAB8AE92670CEF500C1E225 /* Rugby_RefereeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_RefereeApp.swift; sourceTree = "<group>"; };
+		DEAB8AEB2670CEF500C1E225 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		DEAB8AED2670CEF500C1E225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEAB8AF02670CEF500C1E225 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEAB8AF22670CEF500C1E225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAB8AF72670CEF500C1E225 /* Rugby Referee WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rugby Referee WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAB8AFB2670CEF500C1E225 /* Rugby_Referee_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_Referee_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		DEAB8B012670CEF500C1E225 /* Rugby Referee WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rugby Referee WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAB8B052670CEF500C1E225 /* Rugby_Referee_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_Referee_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEAB8AB22670CEF300C1E225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8AC22670CEF400C1E225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8ACC2670CEF400C1E225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8ADF2670CEF500C1E225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8AF42670CEF500C1E225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8AFE2670CEF500C1E225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEAB8AAC2670CEF200C1E225 = {
+			isa = PBXGroup;
+			children = (
+				DEAB8AB72670CEF300C1E225 /* Rugby Referee */,
+				DEAB8AC82670CEF400C1E225 /* Rugby RefereeTests */,
+				DEAB8AD22670CEF400C1E225 /* Rugby RefereeUITests */,
+				DEAB8ADB2670CEF400C1E225 /* Rugby Referee WatchKit App */,
+				DEAB8AE62670CEF500C1E225 /* Rugby Referee WatchKit Extension */,
+				DEAB8AFA2670CEF500C1E225 /* Rugby Referee WatchKit AppTests */,
+				DEAB8B042670CEF500C1E225 /* Rugby Referee WatchKit AppUITests */,
+				DEAB8AB62670CEF300C1E225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEAB8AB62670CEF300C1E225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8AB52670CEF300C1E225 /* Rugby Referee.app */,
+				DEAB8AC52670CEF400C1E225 /* Rugby RefereeTests.xctest */,
+				DEAB8ACF2670CEF400C1E225 /* Rugby RefereeUITests.xctest */,
+				DEAB8AD72670CEF400C1E225 /* Rugby Referee WatchKit App.app */,
+				DEAB8AE22670CEF500C1E225 /* Rugby Referee WatchKit Extension.appex */,
+				DEAB8AF72670CEF500C1E225 /* Rugby Referee WatchKit AppTests.xctest */,
+				DEAB8B012670CEF500C1E225 /* Rugby Referee WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEAB8AB72670CEF300C1E225 /* Rugby Referee */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8AB82670CEF300C1E225 /* Rugby_RefereeApp.swift */,
+				DEAB8ABA2670CEF300C1E225 /* ContentView.swift */,
+				DEAB8ABC2670CEF300C1E225 /* Assets.xcassets */,
+				DEAB8ABE2670CEF300C1E225 /* Preview Content */,
+			);
+			path = "Rugby Referee";
+			sourceTree = "<group>";
+		};
+		DEAB8ABE2670CEF300C1E225 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8ABF2670CEF300C1E225 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEAB8AC82670CEF400C1E225 /* Rugby RefereeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8AC92670CEF400C1E225 /* Rugby_RefereeTests.swift */,
+			);
+			path = "Rugby RefereeTests";
+			sourceTree = "<group>";
+		};
+		DEAB8AD22670CEF400C1E225 /* Rugby RefereeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8AD32670CEF400C1E225 /* Rugby_RefereeUITests.swift */,
+			);
+			path = "Rugby RefereeUITests";
+			sourceTree = "<group>";
+		};
+		DEAB8ADB2670CEF400C1E225 /* Rugby Referee WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8ADC2670CEF400C1E225 /* Assets.xcassets */,
+			);
+			path = "Rugby Referee WatchKit App";
+			sourceTree = "<group>";
+		};
+		DEAB8AE62670CEF500C1E225 /* Rugby Referee WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8AE72670CEF500C1E225 /* ContentView.swift */,
+				DEAB8AE92670CEF500C1E225 /* Rugby_RefereeApp.swift */,
+				DEAB8AEB2670CEF500C1E225 /* ComplicationController.swift */,
+				DEAB8AED2670CEF500C1E225 /* Assets.xcassets */,
+				DEAB8AF22670CEF500C1E225 /* Info.plist */,
+				DEAB8AEF2670CEF500C1E225 /* Preview Content */,
+			);
+			path = "Rugby Referee WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DEAB8AEF2670CEF500C1E225 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8AF02670CEF500C1E225 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEAB8AFA2670CEF500C1E225 /* Rugby Referee WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8AFB2670CEF500C1E225 /* Rugby_Referee_WatchKit_AppTests.swift */,
+			);
+			path = "Rugby Referee WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		DEAB8B042670CEF500C1E225 /* Rugby Referee WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8B052670CEF500C1E225 /* Rugby_Referee_WatchKit_AppUITests.swift */,
+			);
+			path = "Rugby Referee WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEAB8AB42670CEF300C1E225 /* Rugby Referee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAB8B112670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby Referee" */;
+			buildPhases = (
+				DEAB8AB12670CEF300C1E225 /* Sources */,
+				DEAB8AB22670CEF300C1E225 /* Frameworks */,
+				DEAB8AB32670CEF300C1E225 /* Resources */,
+				DEAB8B102670CEF500C1E225 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAB8ADA2670CEF400C1E225 /* PBXTargetDependency */,
+			);
+			name = "Rugby Referee";
+			productName = "Rugby Referee";
+			productReference = DEAB8AB52670CEF300C1E225 /* Rugby Referee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEAB8AC42670CEF400C1E225 /* Rugby RefereeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAB8B142670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby RefereeTests" */;
+			buildPhases = (
+				DEAB8AC12670CEF400C1E225 /* Sources */,
+				DEAB8AC22670CEF400C1E225 /* Frameworks */,
+				DEAB8AC32670CEF400C1E225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAB8AC72670CEF400C1E225 /* PBXTargetDependency */,
+			);
+			name = "Rugby RefereeTests";
+			productName = "Rugby RefereeTests";
+			productReference = DEAB8AC52670CEF400C1E225 /* Rugby RefereeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEAB8ACE2670CEF400C1E225 /* Rugby RefereeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAB8B172670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby RefereeUITests" */;
+			buildPhases = (
+				DEAB8ACB2670CEF400C1E225 /* Sources */,
+				DEAB8ACC2670CEF400C1E225 /* Frameworks */,
+				DEAB8ACD2670CEF400C1E225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAB8AD12670CEF400C1E225 /* PBXTargetDependency */,
+			);
+			name = "Rugby RefereeUITests";
+			productName = "Rugby RefereeUITests";
+			productReference = DEAB8ACF2670CEF400C1E225 /* Rugby RefereeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DEAB8AD62670CEF400C1E225 /* Rugby Referee WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAB8B0D2670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby Referee WatchKit App" */;
+			buildPhases = (
+				DEAB8AD52670CEF400C1E225 /* Resources */,
+				DEAB8B0C2670CEF500C1E225 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAB8AE52670CEF500C1E225 /* PBXTargetDependency */,
+			);
+			name = "Rugby Referee WatchKit App";
+			productName = "Rugby Referee WatchKit App";
+			productReference = DEAB8AD72670CEF400C1E225 /* Rugby Referee WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DEAB8AE12670CEF500C1E225 /* Rugby Referee WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAB8B092670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby Referee WatchKit Extension" */;
+			buildPhases = (
+				DEAB8ADE2670CEF500C1E225 /* Sources */,
+				DEAB8ADF2670CEF500C1E225 /* Frameworks */,
+				DEAB8AE02670CEF500C1E225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rugby Referee WatchKit Extension";
+			productName = "Rugby Referee WatchKit Extension";
+			productReference = DEAB8AE22670CEF500C1E225 /* Rugby Referee WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		DEAB8AF62670CEF500C1E225 /* Rugby Referee WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAB8B1A2670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby Referee WatchKit AppTests" */;
+			buildPhases = (
+				DEAB8AF32670CEF500C1E225 /* Sources */,
+				DEAB8AF42670CEF500C1E225 /* Frameworks */,
+				DEAB8AF52670CEF500C1E225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAB8AF92670CEF500C1E225 /* PBXTargetDependency */,
+			);
+			name = "Rugby Referee WatchKit AppTests";
+			productName = "Rugby Referee WatchKit AppTests";
+			productReference = DEAB8AF72670CEF500C1E225 /* Rugby Referee WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEAB8B002670CEF500C1E225 /* Rugby Referee WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAB8B1D2670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby Referee WatchKit AppUITests" */;
+			buildPhases = (
+				DEAB8AFD2670CEF500C1E225 /* Sources */,
+				DEAB8AFE2670CEF500C1E225 /* Frameworks */,
+				DEAB8AFF2670CEF500C1E225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAB8B032670CEF500C1E225 /* PBXTargetDependency */,
+			);
+			name = "Rugby Referee WatchKit AppUITests";
+			productName = "Rugby Referee WatchKit AppUITests";
+			productReference = DEAB8B012670CEF500C1E225 /* Rugby Referee WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEAB8AAD2670CEF200C1E225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DEAB8AB42670CEF300C1E225 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DEAB8AC42670CEF400C1E225 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DEAB8AB42670CEF300C1E225;
+					};
+					DEAB8ACE2670CEF400C1E225 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DEAB8AB42670CEF300C1E225;
+					};
+					DEAB8AD62670CEF400C1E225 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DEAB8AE12670CEF500C1E225 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DEAB8AF62670CEF500C1E225 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DEAB8AE12670CEF500C1E225;
+					};
+					DEAB8B002670CEF500C1E225 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DEAB8AD62670CEF400C1E225;
+					};
+				};
+			};
+			buildConfigurationList = DEAB8AB02670CEF200C1E225 /* Build configuration list for PBXProject "Rugby Referee" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEAB8AAC2670CEF200C1E225;
+			productRefGroup = DEAB8AB62670CEF300C1E225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEAB8AB42670CEF300C1E225 /* Rugby Referee */,
+				DEAB8AC42670CEF400C1E225 /* Rugby RefereeTests */,
+				DEAB8ACE2670CEF400C1E225 /* Rugby RefereeUITests */,
+				DEAB8AD62670CEF400C1E225 /* Rugby Referee WatchKit App */,
+				DEAB8AE12670CEF500C1E225 /* Rugby Referee WatchKit Extension */,
+				DEAB8AF62670CEF500C1E225 /* Rugby Referee WatchKit AppTests */,
+				DEAB8B002670CEF500C1E225 /* Rugby Referee WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEAB8AB32670CEF300C1E225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB8AC02670CEF300C1E225 /* Preview Assets.xcassets in Resources */,
+				DEAB8ABD2670CEF300C1E225 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8AC32670CEF400C1E225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8ACD2670CEF400C1E225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8AD52670CEF400C1E225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB8ADD2670CEF400C1E225 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8AE02670CEF500C1E225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB8AF12670CEF500C1E225 /* Preview Assets.xcassets in Resources */,
+				DEAB8AEE2670CEF500C1E225 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8AF52670CEF500C1E225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8AFF2670CEF500C1E225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEAB8AB12670CEF300C1E225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB8ABB2670CEF300C1E225 /* ContentView.swift in Sources */,
+				DEAB8AB92670CEF300C1E225 /* Rugby_RefereeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8AC12670CEF400C1E225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB8ACA2670CEF400C1E225 /* Rugby_RefereeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8ACB2670CEF400C1E225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB8AD42670CEF400C1E225 /* Rugby_RefereeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8ADE2670CEF500C1E225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB8AEA2670CEF500C1E225 /* Rugby_RefereeApp.swift in Sources */,
+				DEAB8AE82670CEF500C1E225 /* ContentView.swift in Sources */,
+				DEAB8AEC2670CEF500C1E225 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8AF32670CEF500C1E225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB8AFC2670CEF500C1E225 /* Rugby_Referee_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8AFD2670CEF500C1E225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB8B062670CEF500C1E225 /* Rugby_Referee_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEAB8AC72670CEF400C1E225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEAB8AB42670CEF300C1E225 /* Rugby Referee */;
+			targetProxy = DEAB8AC62670CEF400C1E225 /* PBXContainerItemProxy */;
+		};
+		DEAB8AD12670CEF400C1E225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEAB8AB42670CEF300C1E225 /* Rugby Referee */;
+			targetProxy = DEAB8AD02670CEF400C1E225 /* PBXContainerItemProxy */;
+		};
+		DEAB8ADA2670CEF400C1E225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEAB8AD62670CEF400C1E225 /* Rugby Referee WatchKit App */;
+			targetProxy = DEAB8AD92670CEF400C1E225 /* PBXContainerItemProxy */;
+		};
+		DEAB8AE52670CEF500C1E225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEAB8AE12670CEF500C1E225 /* Rugby Referee WatchKit Extension */;
+			targetProxy = DEAB8AE42670CEF500C1E225 /* PBXContainerItemProxy */;
+		};
+		DEAB8AF92670CEF500C1E225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEAB8AE12670CEF500C1E225 /* Rugby Referee WatchKit Extension */;
+			targetProxy = DEAB8AF82670CEF500C1E225 /* PBXContainerItemProxy */;
+		};
+		DEAB8B032670CEF500C1E225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEAB8AD62670CEF400C1E225 /* Rugby Referee WatchKit App */;
+			targetProxy = DEAB8B022670CEF500C1E225 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DEAB8B072670CEF500C1E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEAB8B082670CEF500C1E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DEAB8B0A2670CEF500C1E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rugby Referee WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rugby Referee WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Rugby Referee WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-Referee.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		DEAB8B0B2670CEF500C1E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rugby Referee WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rugby Referee WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Rugby Referee WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-Referee.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		DEAB8B0E2670CEF500C1E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Rugby_Referee_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rugby Referee WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "dev.jakcharvat.Rugby-Referee";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-Referee.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		DEAB8B0F2670CEF500C1E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Rugby_Referee_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rugby Referee WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "dev.jakcharvat.Rugby-Referee";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-Referee.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		DEAB8B122670CEF500C1E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rugby Referee/Preview Content\"";
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-Referee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEAB8B132670CEF500C1E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rugby Referee/Preview Content\"";
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-Referee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEAB8B152670CEF500C1E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-RefereeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rugby Referee.app/Rugby Referee";
+			};
+			name = Debug;
+		};
+		DEAB8B162670CEF500C1E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-RefereeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rugby Referee.app/Rugby Referee";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEAB8B182670CEF500C1E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-RefereeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rugby Referee";
+			};
+			name = Debug;
+		};
+		DEAB8B192670CEF500C1E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-RefereeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rugby Referee";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEAB8B1B2670CEF500C1E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-Referee-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rugby Referee WatchKit Extension.appex/Rugby Referee WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		DEAB8B1C2670CEF500C1E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-Referee-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rugby Referee WatchKit Extension.appex/Rugby Referee WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		DEAB8B1E2670CEF500C1E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-Referee-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Rugby Referee WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		DEAB8B1F2670CEF500C1E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4L2M42FLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakcharvat.Rugby-Referee-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Rugby Referee WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEAB8AB02670CEF200C1E225 /* Build configuration list for PBXProject "Rugby Referee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB8B072670CEF500C1E225 /* Debug */,
+				DEAB8B082670CEF500C1E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAB8B092670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby Referee WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB8B0A2670CEF500C1E225 /* Debug */,
+				DEAB8B0B2670CEF500C1E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAB8B0D2670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby Referee WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB8B0E2670CEF500C1E225 /* Debug */,
+				DEAB8B0F2670CEF500C1E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAB8B112670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby Referee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB8B122670CEF500C1E225 /* Debug */,
+				DEAB8B132670CEF500C1E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAB8B142670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby RefereeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB8B152670CEF500C1E225 /* Debug */,
+				DEAB8B162670CEF500C1E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAB8B172670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby RefereeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB8B182670CEF500C1E225 /* Debug */,
+				DEAB8B192670CEF500C1E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAB8B1A2670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby Referee WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB8B1B2670CEF500C1E225 /* Debug */,
+				DEAB8B1C2670CEF500C1E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAB8B1D2670CEF500C1E225 /* Build configuration list for PBXNativeTarget "Rugby Referee WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB8B1E2670CEF500C1E225 /* Debug */,
+				DEAB8B1F2670CEF500C1E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEAB8AAD2670CEF200C1E225 /* Project object */;
+}
