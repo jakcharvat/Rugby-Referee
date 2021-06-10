@@ -8,21 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var game = ObservableTrackedGame(teamA: .empty, teamB: .empty)
+    @StateObject private var game = TrackedGame(teamA: .empty, teamB: .empty, halfTime: 10)
     
     var body: some View {
-        VStack {
-            
-            Text(game.elapsedStartTime, style: .timer)
-            
-            Button("Pause") {
-                game.pause()
-            }
-            
-            Button("Resume") {
-                game.resume()
-            }
-        }
+        TimerView().environmentObject(game)
         
 //        HomeScreen()
     }

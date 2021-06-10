@@ -16,13 +16,15 @@ import WatchKit
 import AppKit
 #endif
 
-fileprivate extension Color {
+extension Color {
     #if os(macOS)
     typealias SystemColor = NSColor
     #else
     typealias SystemColor = UIColor
     #endif
     
+    /// Get the RGBA components of the colour
+    /// - Returns: The RGB components of the colour if it is convertible to RGB. On iOS a colour using the HSB colour space will return nil
     var colorComponents: (red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat)? {
         var r: CGFloat = 0
         var g: CGFloat = 0

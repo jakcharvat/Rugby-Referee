@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DE119FCF26715DED00F34129 /* TrackedGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE119FCE26715DED00F34129 /* TrackedGame.swift */; };
+		DE119FD22671F98500F34129 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE119FD12671F98500F34129 /* TimerView.swift */; };
+		DE119FD4267205E800F34129 /* Color+HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE119FD3267205E800F34129 /* Color+HSL.swift */; };
+		DE119FD62672060F00F34129 /* Color+Lerp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE119FD52672060F00F34129 /* Color+Lerp.swift */; };
+		DE119FD8267206F700F34129 /* Double+Lerp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE119FD7267206F700F34129 /* Double+Lerp.swift */; };
+		DE119FDA26721D9E00F34129 /* Color+CustomColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE119FD926721D9E00F34129 /* Color+CustomColours.swift */; };
 		DEA657D42670D811004927A5 /* AllSizesPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657D32670D811004927A5 /* AllSizesPreviews.swift */; };
 		DEA657D62670D8E5004927A5 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657D52670D8E5004927A5 /* HomeScreen.swift */; };
 		DEA657DA2670E4DC004927A5 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657D92670E4DC004927A5 /* AppState.swift */; };
@@ -107,6 +112,11 @@
 /* Begin PBXFileReference section */
 		DE119FCE26715DED00F34129 /* TrackedGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedGame.swift; sourceTree = "<group>"; };
 		DE119FD02671E4C900F34129 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE119FD12671F98500F34129 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		DE119FD3267205E800F34129 /* Color+HSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+HSL.swift"; sourceTree = "<group>"; };
+		DE119FD52672060F00F34129 /* Color+Lerp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Lerp.swift"; sourceTree = "<group>"; };
+		DE119FD7267206F700F34129 /* Double+Lerp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Lerp.swift"; sourceTree = "<group>"; };
+		DE119FD926721D9E00F34129 /* Color+CustomColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+CustomColours.swift"; sourceTree = "<group>"; };
 		DEA657D32670D811004927A5 /* AllSizesPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSizesPreviews.swift; sourceTree = "<group>"; };
 		DEA657D52670D8E5004927A5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		DEA657D92670E4DC004927A5 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
@@ -199,6 +209,7 @@
 			children = (
 				DEAB8AE72670CEF500C1E225 /* ContentView.swift */,
 				DEA657D52670D8E5004927A5 /* HomeScreen.swift */,
+				DE119FD12671F98500F34129 /* TimerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +218,10 @@
 			isa = PBXGroup;
 			children = (
 				DEA657E0267105B1004927A5 /* Color+Codable.swift */,
+				DE119FD3267205E800F34129 /* Color+HSL.swift */,
+				DE119FD52672060F00F34129 /* Color+Lerp.swift */,
+				DE119FD926721D9E00F34129 /* Color+CustomColours.swift */,
+				DE119FD7267206F700F34129 /* Double+Lerp.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -611,18 +626,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE119FDA26721D9E00F34129 /* Color+CustomColours.swift in Sources */,
 				DEA657E52671082C004927A5 /* Player.swift in Sources */,
 				DEAB8AEA2670CEF500C1E225 /* RugbyRefereeApp.swift in Sources */,
 				DEA657D62670D8E5004927A5 /* HomeScreen.swift in Sources */,
 				DEA657DC2670E536004927A5 /* Game.swift in Sources */,
 				DEA657D42670D811004927A5 /* AllSizesPreviews.swift in Sources */,
+				DE119FD8267206F700F34129 /* Double+Lerp.swift in Sources */,
+				DE119FD22671F98500F34129 /* TimerView.swift in Sources */,
 				DEA657E326710802004927A5 /* Event.swift in Sources */,
 				DEA657DE2670E56D004927A5 /* Team.swift in Sources */,
 				DEA657DA2670E4DC004927A5 /* AppState.swift in Sources */,
+				DE119FD4267205E800F34129 /* Color+HSL.swift in Sources */,
 				DE119FCF26715DED00F34129 /* TrackedGame.swift in Sources */,
 				DEAB8AE82670CEF500C1E225 /* ContentView.swift in Sources */,
 				DEA657E1267105B1004927A5 /* Color+Codable.swift in Sources */,
 				DEAB8AEC2670CEF500C1E225 /* ComplicationController.swift in Sources */,
+				DE119FD62672060F00F34129 /* Color+Lerp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,15 +8,17 @@
 import Foundation
 
 struct Game: Codable, Identifiable {
-    init(teamA: Team, teamB: Team) {
+    init(teamA: Team, teamB: Team, halfTime: Int) {
         self.teamA = teamA
         self.teamB = teamB
+        self.halftimeDuration = halfTime
         self.events = []
         id = UUID()
     }
     
     let id: UUID
     
+    let halftimeDuration: Int
     let teamA: Team
     let teamB: Team
     var events: [Event]

@@ -8,66 +8,61 @@
 import SwiftUI
 
 
-struct TrackedGame {
-    init(teamA: Team, teamB: Team) {
-        game = Game(teamA: teamA, teamB: teamB)
+class TrackedGame: ObservableObject {
+    init(teamA: Team, teamB: Team, halfTime: Int) {
+        game = Game(teamA: teamA, teamB: teamB, halfTime: halfTime)
+        halftimeDuration = TimeInterval(halfTime) /* * 60 */
     }
     
-    private(set) var game: Game
-    
-    private let startTime: Date = Date()
-    private var pauseTime: TimeInterval = 0
-    private var gameTime: TimeInterval = 0
-    private var isPaused: Bool = false
-    private var lastPauseTime: Date?
-    
-    var elapsedStartTime: Date {
-        if isPaused {
-            return Date() - gameTime + 20*60
-        }
-        return startTime + pauseTime + 20*60
-    }
-    
-    mutating func pause() {
-        if isPaused { return }
-        isPaused = true
+    private let halftimeDuration: TimeInterval
 
-        let currTime = Date()
-        let fromStart = startTime.distance(to: currTime)
-        gameTime = fromStart - pauseTime
-        lastPauseTime = currTime
+    @Published private(set) var game: Game
+    
+    let startTime: Date = Date()
+    @Published private(set) var elapsedTimeUntilLastPause: TimeInterval = 0
+    @Published private(set) var currentGameSegmentStartTime: Date?
+    
+    @Published private var timeTicker: Timer?
+    @Published private var timeElapsed: TimeInterval = 0
+    
+    @Published var isOvertime = false
+    
+    var timeRemaining: TimeInterval {
+        halftimeDuration - timeElapsed
     }
     
-    mutating func resume() {
-        if !isPaused { return }
-        isPaused = false
-        
-        let currTime = Date()
-        let fromStart = startTime.distance(to: currTime)
-        pauseTime = fromStart - gameTime
-        lastPauseTime = nil
+    var paused: Bool {
+        return currentGameSegmentStartTime == nil
     }
-}
-
-
-@dynamicMemberLookup
-class ObservableTrackedGame: ObservableObject {
-    init(teamA: Team, teamB: Team) {
-        trackedGame = TrackedGame(teamA: teamA, teamB: teamB)
-    }
-    
-    @Published private var trackedGame: TrackedGame
-    
-    subscript<T>(dynamicMember keyPath: KeyPath<TrackedGame, T>) -> T {
-        return trackedGame[keyPath: keyPath]
-    }
-    
     
     func pause() {
-        trackedGame.pause()
+        guard let currentGameSegmentStartTime = currentGameSegmentStartTime else { return }
+
+        timeTicker?.invalidate()
+        let currTime = Date()
+        let fromStart = currentGameSegmentStartTime.distance(to: currTime)
+        elapsedTimeUntilLastPause += fromStart
+        self.currentGameSegmentStartTime = nil
     }
     
     func resume() {
-        trackedGame.resume()
+        guard currentGameSegmentStartTime == nil else { return }
+        currentGameSegmentStartTime = Date()
+        
+        timeTicker = .scheduledTimer(withTimeInterval: 0.1, repeats: true, block: updateElapsedTime(_:))
+    }
+    
+    func togglePaused() {
+        if paused { resume() }
+        else { pause() }
+    }
+    
+    private func updateElapsedTime(_ timer: Timer) {
+        guard let currentGameSegmentStartTime = currentGameSegmentStartTime else { return }
+
+        let now = Date()
+        let currentGameSegmentTime = currentGameSegmentStartTime.distance(to: now)
+        timeElapsed = elapsedTimeUntilLastPause + currentGameSegmentTime
+        isOvertime = timeElapsed > halftimeDuration
     }
 }
