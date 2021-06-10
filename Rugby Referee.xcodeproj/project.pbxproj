@@ -106,6 +106,7 @@
 
 /* Begin PBXFileReference section */
 		DE119FCE26715DED00F34129 /* TrackedGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedGame.swift; sourceTree = "<group>"; };
+		DE119FD02671E4C900F34129 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DEA657D32670D811004927A5 /* AllSizesPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSizesPreviews.swift; sourceTree = "<group>"; };
 		DEA657D52670D8E5004927A5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		DEA657D92670E4DC004927A5 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
@@ -225,6 +226,7 @@
 		DEAB8AAC2670CEF200C1E225 = {
 			isa = PBXGroup;
 			children = (
+				DE119FD02671E4C900F34129 /* README.md */,
 				DEAB8AB72670CEF300C1E225 /* Rugby Referee */,
 				DEAB8AC82670CEF400C1E225 /* Rugby RefereeTests */,
 				DEAB8AD22670CEF400C1E225 /* Rugby RefereeUITests */,
