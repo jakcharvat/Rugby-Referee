@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEAB8AB92670CEF300C1E225 /* Rugby_RefereeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AB82670CEF300C1E225 /* Rugby_RefereeApp.swift */; };
+		DE119FCF26715DED00F34129 /* TrackedGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE119FCE26715DED00F34129 /* TrackedGame.swift */; };
+		DEA657D42670D811004927A5 /* AllSizesPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657D32670D811004927A5 /* AllSizesPreviews.swift */; };
+		DEA657D62670D8E5004927A5 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657D52670D8E5004927A5 /* HomeScreen.swift */; };
+		DEA657DA2670E4DC004927A5 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657D92670E4DC004927A5 /* AppState.swift */; };
+		DEA657DC2670E536004927A5 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657DB2670E536004927A5 /* Game.swift */; };
+		DEA657DE2670E56D004927A5 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657DD2670E56D004927A5 /* Team.swift */; };
+		DEA657E1267105B1004927A5 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657E0267105B1004927A5 /* Color+Codable.swift */; };
+		DEA657E326710802004927A5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657E226710802004927A5 /* Event.swift */; };
+		DEA657E52671082C004927A5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657E42671082C004927A5 /* Player.swift */; };
+		DEAB8AB92670CEF300C1E225 /* RugbyRefereeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AB82670CEF300C1E225 /* RugbyRefereeApp.swift */; };
 		DEAB8ABB2670CEF300C1E225 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8ABA2670CEF300C1E225 /* ContentView.swift */; };
 		DEAB8ABD2670CEF300C1E225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8ABC2670CEF300C1E225 /* Assets.xcassets */; };
 		DEAB8AC02670CEF300C1E225 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8ABF2670CEF300C1E225 /* Preview Assets.xcassets */; };
@@ -17,7 +26,7 @@
 		DEAB8ADD2670CEF400C1E225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8ADC2670CEF400C1E225 /* Assets.xcassets */; };
 		DEAB8AE32670CEF500C1E225 /* Rugby Referee WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DEAB8AE22670CEF500C1E225 /* Rugby Referee WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DEAB8AE82670CEF500C1E225 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AE72670CEF500C1E225 /* ContentView.swift */; };
-		DEAB8AEA2670CEF500C1E225 /* Rugby_RefereeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AE92670CEF500C1E225 /* Rugby_RefereeApp.swift */; };
+		DEAB8AEA2670CEF500C1E225 /* RugbyRefereeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AE92670CEF500C1E225 /* RugbyRefereeApp.swift */; };
 		DEAB8AEC2670CEF500C1E225 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AEB2670CEF500C1E225 /* ComplicationController.swift */; };
 		DEAB8AEE2670CEF500C1E225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8AED2670CEF500C1E225 /* Assets.xcassets */; };
 		DEAB8AF12670CEF500C1E225 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8AF02670CEF500C1E225 /* Preview Assets.xcassets */; };
@@ -96,8 +105,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE119FCE26715DED00F34129 /* TrackedGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedGame.swift; sourceTree = "<group>"; };
+		DEA657D32670D811004927A5 /* AllSizesPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSizesPreviews.swift; sourceTree = "<group>"; };
+		DEA657D52670D8E5004927A5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		DEA657D92670E4DC004927A5 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		DEA657DB2670E536004927A5 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		DEA657DD2670E56D004927A5 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		DEA657E0267105B1004927A5 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		DEA657E226710802004927A5 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DEA657E42671082C004927A5 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		DEAB8AB52670CEF300C1E225 /* Rugby Referee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rugby Referee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEAB8AB82670CEF300C1E225 /* Rugby_RefereeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_RefereeApp.swift; sourceTree = "<group>"; };
+		DEAB8AB82670CEF300C1E225 /* RugbyRefereeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RugbyRefereeApp.swift; sourceTree = "<group>"; };
 		DEAB8ABA2670CEF300C1E225 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEAB8ABC2670CEF300C1E225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEAB8ABF2670CEF300C1E225 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -109,7 +127,7 @@
 		DEAB8ADC2670CEF400C1E225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEAB8AE22670CEF500C1E225 /* Rugby Referee WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rugby Referee WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAB8AE72670CEF500C1E225 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DEAB8AE92670CEF500C1E225 /* Rugby_RefereeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_RefereeApp.swift; sourceTree = "<group>"; };
+		DEAB8AE92670CEF500C1E225 /* RugbyRefereeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RugbyRefereeApp.swift; sourceTree = "<group>"; };
 		DEAB8AEB2670CEF500C1E225 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		DEAB8AED2670CEF500C1E225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEAB8AF02670CEF500C1E225 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -166,6 +184,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DEA657D72670E381004927A5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DEA657E626710830004927A5 /* Models */,
+				DEA657D92670E4DC004927A5 /* AppState.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DEA657D82670E38E004927A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8AE72670CEF500C1E225 /* ContentView.swift */,
+				DEA657D52670D8E5004927A5 /* HomeScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEA657DF267105A2004927A5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DEA657E0267105B1004927A5 /* Color+Codable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DEA657E626710830004927A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEA657DB2670E536004927A5 /* Game.swift */,
+				DEA657E226710802004927A5 /* Event.swift */,
+				DEA657E42671082C004927A5 /* Player.swift */,
+				DEA657DD2670E56D004927A5 /* Team.swift */,
+				DE119FCE26715DED00F34129 /* TrackedGame.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DEAB8AAC2670CEF200C1E225 = {
 			isa = PBXGroup;
 			children = (
@@ -197,7 +253,7 @@
 		DEAB8AB72670CEF300C1E225 /* Rugby Referee */ = {
 			isa = PBXGroup;
 			children = (
-				DEAB8AB82670CEF300C1E225 /* Rugby_RefereeApp.swift */,
+				DEAB8AB82670CEF300C1E225 /* RugbyRefereeApp.swift */,
 				DEAB8ABA2670CEF300C1E225 /* ContentView.swift */,
 				DEAB8ABC2670CEF300C1E225 /* Assets.xcassets */,
 				DEAB8ABE2670CEF300C1E225 /* Preview Content */,
@@ -240,9 +296,12 @@
 		DEAB8AE62670CEF500C1E225 /* Rugby Referee WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				DEAB8AE72670CEF500C1E225 /* ContentView.swift */,
-				DEAB8AE92670CEF500C1E225 /* Rugby_RefereeApp.swift */,
+				DEAB8AE92670CEF500C1E225 /* RugbyRefereeApp.swift */,
+				DEA657D72670E381004927A5 /* Data */,
+				DEA657D82670E38E004927A5 /* Views */,
+				DEA657DF267105A2004927A5 /* Extensions */,
 				DEAB8AEB2670CEF500C1E225 /* ComplicationController.swift */,
+				DEA657D32670D811004927A5 /* AllSizesPreviews.swift */,
 				DEAB8AED2670CEF500C1E225 /* Assets.xcassets */,
 				DEAB8AF22670CEF500C1E225 /* Info.plist */,
 				DEAB8AEF2670CEF500C1E225 /* Preview Content */,
@@ -526,7 +585,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEAB8ABB2670CEF300C1E225 /* ContentView.swift in Sources */,
-				DEAB8AB92670CEF300C1E225 /* Rugby_RefereeApp.swift in Sources */,
+				DEAB8AB92670CEF300C1E225 /* RugbyRefereeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,8 +609,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEAB8AEA2670CEF500C1E225 /* Rugby_RefereeApp.swift in Sources */,
+				DEA657E52671082C004927A5 /* Player.swift in Sources */,
+				DEAB8AEA2670CEF500C1E225 /* RugbyRefereeApp.swift in Sources */,
+				DEA657D62670D8E5004927A5 /* HomeScreen.swift in Sources */,
+				DEA657DC2670E536004927A5 /* Game.swift in Sources */,
+				DEA657D42670D811004927A5 /* AllSizesPreviews.swift in Sources */,
+				DEA657E326710802004927A5 /* Event.swift in Sources */,
+				DEA657DE2670E56D004927A5 /* Team.swift in Sources */,
+				DEA657DA2670E4DC004927A5 /* AppState.swift in Sources */,
+				DE119FCF26715DED00F34129 /* TrackedGame.swift in Sources */,
 				DEAB8AE82670CEF500C1E225 /* ContentView.swift in Sources */,
+				DEA657E1267105B1004927A5 /* Color+Codable.swift in Sources */,
 				DEAB8AEC2670CEF500C1E225 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -747,7 +815,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
 			};
 			name = Debug;
 		};
@@ -780,7 +848,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
 			};
 			name = Release;
 		};
@@ -806,7 +874,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
 			};
 			name = Debug;
 		};
@@ -833,7 +901,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
 			};
 			name = Release;
 		};
@@ -853,7 +921,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -884,7 +952,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
