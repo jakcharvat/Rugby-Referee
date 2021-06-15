@@ -15,7 +15,7 @@ struct AllSizes<Content>: View where Content: View {
     var body: some View {
         Group {
             contentBuilder()
-                .previewDevice("Apple Watch Series 3 - 42mm")
+                .previewDevice("Apple Watch Series 3 - 38mm")
             contentBuilder()
                 .previewDevice("Apple Watch Series 6 - 44mm")
         }

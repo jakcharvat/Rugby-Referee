@@ -35,7 +35,11 @@ struct TimerView: View {
                     }
                 }
             }
-            .buttonStyle(BorderedButtonStyle(tint: tintColour.opacity(tintOpacity*6 + 1)))
+            .buttonStyle(
+                BorderedButtonStyle(
+                    tint: tintColour.opacity(tintOpacity*6 + 1)
+                )
+            )
             
             if game.isOvertime {
                 Text("OVERTIME")

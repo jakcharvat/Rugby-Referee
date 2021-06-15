@@ -37,6 +37,7 @@
 		DEAB8AF12670CEF500C1E225 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8AF02670CEF500C1E225 /* Preview Assets.xcassets */; };
 		DEAB8AFC2670CEF500C1E225 /* Rugby_Referee_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AFB2670CEF500C1E225 /* Rugby_Referee_WatchKit_AppTests.swift */; };
 		DEAB8B062670CEF500C1E225 /* Rugby_Referee_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8B052670CEF500C1E225 /* Rugby_Referee_WatchKit_AppUITests.swift */; };
+		DED43CA62677FC15006613AE /* NumberPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CA52677FC15006613AE /* NumberPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +148,7 @@
 		DEAB8AFB2670CEF500C1E225 /* Rugby_Referee_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_Referee_WatchKit_AppTests.swift; sourceTree = "<group>"; };
 		DEAB8B012670CEF500C1E225 /* Rugby Referee WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rugby Referee WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAB8B052670CEF500C1E225 /* Rugby_Referee_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_Referee_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		DED43CA52677FC15006613AE /* NumberPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,7 @@
 				DEAB8AE72670CEF500C1E225 /* ContentView.swift */,
 				DEA657D52670D8E5004927A5 /* HomeScreen.swift */,
 				DE119FD12671F98500F34129 /* TimerView.swift */,
+				DED43CA52677FC15006613AE /* NumberPicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -636,6 +639,7 @@
 				DE119FD22671F98500F34129 /* TimerView.swift in Sources */,
 				DEA657E326710802004927A5 /* Event.swift in Sources */,
 				DEA657DE2670E56D004927A5 /* Team.swift in Sources */,
+				DED43CA62677FC15006613AE /* NumberPicker.swift in Sources */,
 				DEA657DA2670E4DC004927A5 /* AppState.swift in Sources */,
 				DE119FD4267205E800F34129 /* Color+HSL.swift in Sources */,
 				DE119FCF26715DED00F34129 /* TrackedGame.swift in Sources */,

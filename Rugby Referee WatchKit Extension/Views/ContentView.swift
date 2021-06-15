@@ -10,8 +10,12 @@ import SwiftUI
 struct ContentView: View {
     @StateObject private var game = TrackedGame(teamA: .empty, teamB: .empty, halfTime: 10)
     
+    @State private var num = 1
+    
     var body: some View {
-        TimerView().environmentObject(game)
+//        TimerView().environmentObject(game)
+        
+        NumberPicker("Player", in: 1...30, selection: $num)
         
 //        HomeScreen()
     }
