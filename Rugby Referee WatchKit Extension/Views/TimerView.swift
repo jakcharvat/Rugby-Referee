@@ -48,7 +48,7 @@ struct TimerView: View {
                     .foregroundColor(.red)
             }
         }
-        .animation(.easeInOut(duration: 0.2))
+        .animation(Self.animation)
     }
     
     var tintColour: Color {
@@ -80,6 +80,10 @@ struct TimerView: View {
     
     var pauseColour: Color {
         game.isOvertime ?  .black : .blue
+    }
+    
+    static var animation: Animation {
+        .easeInOut(duration: 0.2)
     }
 }
 

@@ -23,8 +23,22 @@ struct Team: Codable, Identifiable, Equatable {
 
 #if DEBUG
 extension Team {
+    static var teams: [Team] = {
+        let res = Bundle.main.url(forResource: "Teams", withExtension: "json")!
+        let data = try! Data(contentsOf: res)
+        return try! JSONDecoder().decode([Team].self, from: data)
+    }()
+    
     static var empty: Team {
         Team(name: "", acronym: "", colour: .clear)
+    }
+    
+    static var sample1: Team {
+        teams[0]
+    }
+    
+    static var sample2: Team {
+        teams[1]
     }
 }
 #endif

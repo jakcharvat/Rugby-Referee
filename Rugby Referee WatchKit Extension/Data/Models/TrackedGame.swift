@@ -27,6 +27,9 @@ class TrackedGame: ObservableObject {
     
     @Published var isOvertime = false
     
+    @Published var teamAScore = 0
+    @Published var teamBScore = 0
+    
     var timeRemaining: TimeInterval {
         halftimeDuration - timeElapsed
     }

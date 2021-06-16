@@ -38,6 +38,11 @@
 		DEAB8AFC2670CEF500C1E225 /* Rugby_Referee_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8AFB2670CEF500C1E225 /* Rugby_Referee_WatchKit_AppTests.swift */; };
 		DEAB8B062670CEF500C1E225 /* Rugby_Referee_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8B052670CEF500C1E225 /* Rugby_Referee_WatchKit_AppUITests.swift */; };
 		DED43CA62677FC15006613AE /* NumberPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CA52677FC15006613AE /* NumberPicker.swift */; };
+		DED43CAC2679304E006613AE /* GoalCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CAB2679304E006613AE /* GoalCounter.swift */; };
+		DED43CAE2679CD61006613AE /* GoalCounters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CAD2679CD61006613AE /* GoalCounters.swift */; };
+		DED43CB02679D206006613AE /* Teams.json in Resources */ = {isa = PBXBuildFile; fileRef = DED43CAF2679D206006613AE /* Teams.json */; };
+		DED43CB22679D283006613AE /* Color+HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CB12679D283006613AE /* Color+HEX.swift */; };
+		DED43CB42679DE46006613AE /* TimerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CB32679DE46006613AE /* TimerScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +154,11 @@
 		DEAB8B012670CEF500C1E225 /* Rugby Referee WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rugby Referee WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAB8B052670CEF500C1E225 /* Rugby_Referee_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rugby_Referee_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		DED43CA52677FC15006613AE /* NumberPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPicker.swift; sourceTree = "<group>"; };
+		DED43CAB2679304E006613AE /* GoalCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCounter.swift; sourceTree = "<group>"; };
+		DED43CAD2679CD61006613AE /* GoalCounters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCounters.swift; sourceTree = "<group>"; };
+		DED43CAF2679D206006613AE /* Teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Teams.json; sourceTree = "<group>"; };
+		DED43CB12679D283006613AE /* Color+HEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+HEX.swift"; sourceTree = "<group>"; };
+		DED43CB32679DE46006613AE /* TimerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +212,7 @@
 			children = (
 				DEA657E626710830004927A5 /* Models */,
 				DEA657D92670E4DC004927A5 /* AppState.swift */,
+				DED43CAF2679D206006613AE /* Teams.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -211,7 +222,10 @@
 			children = (
 				DEAB8AE72670CEF500C1E225 /* ContentView.swift */,
 				DEA657D52670D8E5004927A5 /* HomeScreen.swift */,
+				DED43CB32679DE46006613AE /* TimerScreen.swift */,
 				DE119FD12671F98500F34129 /* TimerView.swift */,
+				DED43CAB2679304E006613AE /* GoalCounter.swift */,
+				DED43CAD2679CD61006613AE /* GoalCounters.swift */,
 				DED43CA52677FC15006613AE /* NumberPicker.swift */,
 			);
 			path = Views;
@@ -221,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				DEA657E0267105B1004927A5 /* Color+Codable.swift */,
+				DED43CB12679D283006613AE /* Color+HEX.swift */,
 				DE119FD3267205E800F34129 /* Color+HSL.swift */,
 				DE119FD52672060F00F34129 /* Color+Lerp.swift */,
 				DE119FD926721D9E00F34129 /* Color+CustomColours.swift */,
@@ -579,6 +594,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEAB8AF12670CEF500C1E225 /* Preview Assets.xcassets in Resources */,
+				DED43CB02679D206006613AE /* Teams.json in Resources */,
 				DEAB8AEE2670CEF500C1E225 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -629,6 +645,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED43CB22679D283006613AE /* Color+HEX.swift in Sources */,
 				DE119FDA26721D9E00F34129 /* Color+CustomColours.swift in Sources */,
 				DEA657E52671082C004927A5 /* Player.swift in Sources */,
 				DEAB8AEA2670CEF500C1E225 /* RugbyRefereeApp.swift in Sources */,
@@ -636,8 +653,11 @@
 				DEA657DC2670E536004927A5 /* Game.swift in Sources */,
 				DEA657D42670D811004927A5 /* AllSizesPreviews.swift in Sources */,
 				DE119FD8267206F700F34129 /* Double+Lerp.swift in Sources */,
+				DED43CAE2679CD61006613AE /* GoalCounters.swift in Sources */,
+				DED43CB42679DE46006613AE /* TimerScreen.swift in Sources */,
 				DE119FD22671F98500F34129 /* TimerView.swift in Sources */,
 				DEA657E326710802004927A5 /* Event.swift in Sources */,
+				DED43CAC2679304E006613AE /* GoalCounter.swift in Sources */,
 				DEA657DE2670E56D004927A5 /* Team.swift in Sources */,
 				DED43CA62677FC15006613AE /* NumberPicker.swift in Sources */,
 				DEA657DA2670E4DC004927A5 /* AppState.swift in Sources */,

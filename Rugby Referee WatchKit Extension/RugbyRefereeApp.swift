@@ -14,6 +14,11 @@ struct RugbyRefereeApp: App {
             NavigationView {
                 ContentView()
             }
+            .onAppear {
+                let res = Bundle.main.url(forResource: "Teams", withExtension: "json")!
+                let data = try! Data(contentsOf: res)
+                print(try! JSONDecoder().decode([Team].self, from: data))
+            }
         }
     }
 }

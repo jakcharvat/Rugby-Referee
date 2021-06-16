@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Christchurch Boys High",
+        "acronym": "CBH",
+        "colour": "#1447FC"
+    },
+    {
+        "name": "St Andrews",
+        "acronym": "STA",
+        "colour": "#0079FF"
+    },
+    {
+        "name": "St Bedes",
+        "acronym": "BED",
+        "colour": "#FF413E"
+    },
+    {
+        "name": "Christ College",
+        "acronym": "CHR",
+        "colour": "#FAFAFA"
+    },
+    {
+        "name": "Cashmere",
+        "acronym": "CAS",
+        "colour": "#CE994A"
+    },
+    {
+        "name": "St Thomas",
+        "acronym": "STC",
+        "colour": "#2456F8"
+    },
+    {
+        "name": "Shirley",
+        "acronym": "SHI",
+        "colour": "#e8e800"
+    },
+    {
+        "name": "Linwood",
+        "acronym": "LIN",
+        "colour": "#0A520D"
+    },
+    {
+        "name": "Merivale",
+        "acronym": "MER",
+        "colour": "#302C47"
+    },
+    {
+        "name": "Hillmorton",
+        "acronym": "HIL",
+        "colour": "#3717EF"
+    },
+    {
+        "name": "Ashleyu",
+        "acronym": "ASH",
+        "colour": "#198130"
+    },
+    {
+        "name": "Hornby",
+        "acronym": "HOR",
+        "colour": "#EA6C13"
+    },
+    {
+        "name": "Burnside",
+        "acronym": "BUR",
+        "colour": "#FF413E"
+    },
+    {
+        "name": "Haeate",
+        "acronym": "HAE",
+        "colour": "#9317ff"
+    },
+    {
+        "name": "Christchurch",
+        "acronym": "CHC",
+        "colour": "#e8281e"
+    }
+]
