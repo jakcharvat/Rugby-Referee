@@ -13,7 +13,7 @@ struct ContentView: View {
     @State private var num = 1
     
     var body: some View {
-        TimerScreen()
+        ActiveGameScreen()
             .environmentObject(game)
 //        TimerView().environmentObject(game)
         

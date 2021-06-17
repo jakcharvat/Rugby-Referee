@@ -13,6 +13,10 @@
 		DE119FD62672060F00F34129 /* Color+Lerp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE119FD52672060F00F34129 /* Color+Lerp.swift */; };
 		DE119FD8267206F700F34129 /* Double+Lerp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE119FD7267206F700F34129 /* Double+Lerp.swift */; };
 		DE119FDA26721D9E00F34129 /* Color+CustomColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE119FD926721D9E00F34129 /* Color+CustomColours.swift */; };
+		DE723D8E267BA588009345E2 /* CardSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE723D8D267BA588009345E2 /* CardSelectionScreen.swift */; };
+		DE723D90267BA5CB009345E2 /* CardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE723D8F267BA5CB009345E2 /* CardButton.swift */; };
+		DE723D92267BBDAB009345E2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE723D91267BBDAB009345E2 /* Card.swift */; };
+		DE723D94267BDADF009345E2 /* ActiveGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE723D93267BDADF009345E2 /* ActiveGameScreen.swift */; };
 		DEA657D42670D811004927A5 /* AllSizesPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657D32670D811004927A5 /* AllSizesPreviews.swift */; };
 		DEA657D62670D8E5004927A5 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657D52670D8E5004927A5 /* HomeScreen.swift */; };
 		DEA657DA2670E4DC004927A5 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA657D92670E4DC004927A5 /* AppState.swift */; };
@@ -124,6 +128,10 @@
 		DE119FD52672060F00F34129 /* Color+Lerp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Lerp.swift"; sourceTree = "<group>"; };
 		DE119FD7267206F700F34129 /* Double+Lerp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Lerp.swift"; sourceTree = "<group>"; };
 		DE119FD926721D9E00F34129 /* Color+CustomColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+CustomColours.swift"; sourceTree = "<group>"; };
+		DE723D8D267BA588009345E2 /* CardSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionScreen.swift; sourceTree = "<group>"; };
+		DE723D8F267BA5CB009345E2 /* CardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardButton.swift; sourceTree = "<group>"; };
+		DE723D91267BBDAB009345E2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		DE723D93267BDADF009345E2 /* ActiveGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveGameScreen.swift; sourceTree = "<group>"; };
 		DEA657D32670D811004927A5 /* AllSizesPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSizesPreviews.swift; sourceTree = "<group>"; };
 		DEA657D52670D8E5004927A5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		DEA657D92670E4DC004927A5 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
@@ -247,6 +255,7 @@
 			children = (
 				DEA657DB2670E536004927A5 /* Game.swift */,
 				DEA657E226710802004927A5 /* Event.swift */,
+				DE723D91267BBDAB009345E2 /* Card.swift */,
 				DEA657E42671082C004927A5 /* Player.swift */,
 				DEA657DD2670E56D004927A5 /* Team.swift */,
 				DE119FCE26715DED00F34129 /* TrackedGame.swift */,
@@ -371,6 +380,8 @@
 			children = (
 				DEA657D52670D8E5004927A5 /* HomeScreen.swift */,
 				DED43CB32679DE46006613AE /* TimerScreen.swift */,
+				DE723D8D267BA588009345E2 /* CardSelectionScreen.swift */,
+				DE723D93267BDADF009345E2 /* ActiveGameScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -383,6 +394,7 @@
 				DED43CAD2679CD61006613AE /* GoalCounters.swift */,
 				DED43CB5267A02B8006613AE /* GoalPicker.swift */,
 				DED43CA52677FC15006613AE /* NumberPicker.swift */,
+				DE723D8F267BA5CB009345E2 /* CardButton.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -668,17 +680,21 @@
 				DE119FDA26721D9E00F34129 /* Color+CustomColours.swift in Sources */,
 				DEA657E52671082C004927A5 /* Player.swift in Sources */,
 				DEAB8AEA2670CEF500C1E225 /* RugbyRefereeApp.swift in Sources */,
+				DE723D90267BA5CB009345E2 /* CardButton.swift in Sources */,
+				DE723D8E267BA588009345E2 /* CardSelectionScreen.swift in Sources */,
 				DEA657D62670D8E5004927A5 /* HomeScreen.swift in Sources */,
 				DEA657DC2670E536004927A5 /* Game.swift in Sources */,
 				DEA657D42670D811004927A5 /* AllSizesPreviews.swift in Sources */,
 				DE119FD8267206F700F34129 /* Double+Lerp.swift in Sources */,
 				DED43CAE2679CD61006613AE /* GoalCounters.swift in Sources */,
+				DE723D94267BDADF009345E2 /* ActiveGameScreen.swift in Sources */,
 				DED43CB42679DE46006613AE /* TimerScreen.swift in Sources */,
 				DE119FD22671F98500F34129 /* TimerView.swift in Sources */,
 				DEA657E326710802004927A5 /* Event.swift in Sources */,
 				DED43CAC2679304E006613AE /* GoalCounter.swift in Sources */,
 				DED43CB6267A02B8006613AE /* GoalPicker.swift in Sources */,
 				DEA657DE2670E56D004927A5 /* Team.swift in Sources */,
+				DE723D92267BBDAB009345E2 /* Card.swift in Sources */,
 				DED43CA62677FC15006613AE /* NumberPicker.swift in Sources */,
 				DEA657DA2670E4DC004927A5 /* AppState.swift in Sources */,
 				DE119FD4267205E800F34129 /* Color+HSL.swift in Sources */,
