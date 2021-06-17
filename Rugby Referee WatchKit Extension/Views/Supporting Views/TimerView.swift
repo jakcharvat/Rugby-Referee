@@ -46,7 +46,6 @@ struct TimerView: View {
                     .font(.subheadline)
                     .fontWeight(.heavy)
                     .foregroundColor(.red)
-                    .edgesIgnoringSafeArea(.bottom)
                     .padding(.bottom, game.paused ? 12 : 0)
             }
         }
