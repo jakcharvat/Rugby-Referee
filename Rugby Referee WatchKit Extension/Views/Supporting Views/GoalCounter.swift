@@ -19,6 +19,8 @@ struct GoalCounter: View {
     @State private var isHeldDown: Bool = false
     @State private var holdScale: Double = 1
     
+    @State private var isSheetPresented: Bool = false
+    
     var body: some View {
         Button(action: {}) {
             VStack(spacing: 0) {
@@ -38,6 +40,14 @@ struct GoalCounter: View {
         .scaleEffect(timer == nil ? 1.0 : 0.9)
         .scaleEffect(holdScale)
         .colorMultiply(Color.lerp(from: .white, to: team.colour, distance: progress()))
+        .sheet(isPresented: $isSheetPresented) {
+            isHeldDown = false
+        } content: {
+            GoalPicker { num in
+                count += num
+                isSheetPresented = false
+            }
+        }
     }
     
     
@@ -85,24 +95,28 @@ struct GoalCounter: View {
             guard let holdDownStart = holdDownStart else { return }
             let time = holdDownStart.distance(to: Date())
             if time > holdTime {
-                incrementScore()
+                handleHold()
             }
         }
     }
     
-    func incrementScore() {
+    func handleHold() {
         timer?.invalidate()
         timer = nil
         holdDownStart = nil
-        count += 1
         
         withAnimation(jumpAnimation) {
             holdScale = 1
         }
         
-        WKInterfaceDevice.current().play(.directionUp)
+        showGoalSelection()
     }
     
+    func showGoalSelection() {
+        WKInterfaceDevice.current().play(.directionUp)
+//        count += 1
+        isSheetPresented = true
+    }
     
     func updateTimer() {
         guard !isHeldDown else { return }

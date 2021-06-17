@@ -43,6 +43,7 @@
 		DED43CB02679D206006613AE /* Teams.json in Resources */ = {isa = PBXBuildFile; fileRef = DED43CAF2679D206006613AE /* Teams.json */; };
 		DED43CB22679D283006613AE /* Color+HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CB12679D283006613AE /* Color+HEX.swift */; };
 		DED43CB42679DE46006613AE /* TimerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CB32679DE46006613AE /* TimerScreen.swift */; };
+		DED43CB6267A02B8006613AE /* GoalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CB5267A02B8006613AE /* GoalPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +160,7 @@
 		DED43CAF2679D206006613AE /* Teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Teams.json; sourceTree = "<group>"; };
 		DED43CB12679D283006613AE /* Color+HEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+HEX.swift"; sourceTree = "<group>"; };
 		DED43CB32679DE46006613AE /* TimerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScreen.swift; sourceTree = "<group>"; };
+		DED43CB5267A02B8006613AE /* GoalPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,12 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				DEAB8AE72670CEF500C1E225 /* ContentView.swift */,
-				DEA657D52670D8E5004927A5 /* HomeScreen.swift */,
-				DED43CB32679DE46006613AE /* TimerScreen.swift */,
-				DE119FD12671F98500F34129 /* TimerView.swift */,
-				DED43CAB2679304E006613AE /* GoalCounter.swift */,
-				DED43CAD2679CD61006613AE /* GoalCounters.swift */,
-				DED43CA52677FC15006613AE /* NumberPicker.swift */,
+				DED43CB7267A0357006613AE /* Screens */,
+				DED43CB8267A0361006613AE /* Supporting Views */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -366,6 +364,27 @@
 				DEAB8B052670CEF500C1E225 /* Rugby_Referee_WatchKit_AppUITests.swift */,
 			);
 			path = "Rugby Referee WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		DED43CB7267A0357006613AE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DEA657D52670D8E5004927A5 /* HomeScreen.swift */,
+				DED43CB32679DE46006613AE /* TimerScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DED43CB8267A0361006613AE /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE119FD12671F98500F34129 /* TimerView.swift */,
+				DED43CAB2679304E006613AE /* GoalCounter.swift */,
+				DED43CAD2679CD61006613AE /* GoalCounters.swift */,
+				DED43CB5267A02B8006613AE /* GoalPicker.swift */,
+				DED43CA52677FC15006613AE /* NumberPicker.swift */,
+			);
+			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -658,6 +677,7 @@
 				DE119FD22671F98500F34129 /* TimerView.swift in Sources */,
 				DEA657E326710802004927A5 /* Event.swift in Sources */,
 				DED43CAC2679304E006613AE /* GoalCounter.swift in Sources */,
+				DED43CB6267A02B8006613AE /* GoalPicker.swift in Sources */,
 				DEA657DE2670E56D004927A5 /* Team.swift in Sources */,
 				DED43CA62677FC15006613AE /* NumberPicker.swift in Sources */,
 				DEA657DA2670E4DC004927A5 /* AppState.swift in Sources */,
