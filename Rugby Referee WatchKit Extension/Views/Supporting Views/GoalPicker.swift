@@ -24,7 +24,7 @@ struct GoalPicker: View {
     }
     
     @ViewBuilder
-    func scoreButton(_ label: String, score: Int, isMultiline: Bool = false) -> some View {
+    func scoreButton(_ label: String, score: Int) -> some View {
         Button {
             action(score)
         } label: {
