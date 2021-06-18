@@ -222,6 +222,7 @@
 			children = (
 				DEA657E626710830004927A5 /* Models */,
 				DEA657D92670E4DC004927A5 /* AppState.swift */,
+				DE119FCE26715DED00F34129 /* TrackedGame.swift */,
 				DED43CAF2679D206006613AE /* Teams.json */,
 			);
 			path = Data;
@@ -258,7 +259,6 @@
 				DE723D91267BBDAB009345E2 /* Card.swift */,
 				DEA657E42671082C004927A5 /* Player.swift */,
 				DEA657DD2670E56D004927A5 /* Team.swift */,
-				DE119FCE26715DED00F34129 /* TrackedGame.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
