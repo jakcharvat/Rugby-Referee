@@ -8,10 +8,17 @@
 import SwiftUI
 
 
+fileprivate extension Int {
+    var minsToSecs: Int {
+        return self * 60
+    }
+}
+
+
 class TrackedGame: ObservableObject {
     init(teamA: Team, teamB: Team, halfTime: Int) {
         game = Game(teamA: teamA, teamB: teamB, halfTime: halfTime)
-        halftimeDuration = TimeInterval(halfTime) /* * 60 */
+        halftimeDuration = TimeInterval(halfTime.minsToSecs)
     }
     
     private let halftimeDuration: TimeInterval
@@ -25,7 +32,7 @@ class TrackedGame: ObservableObject {
     @Published private var timeTicker: Timer?
     @Published private var timeElapsed: TimeInterval = 0
     
-    @Published var isOvertime = false
+    @Published private(set) var isOvertime = false
     
     @Published var teamAScore = 0
     @Published var teamBScore = 0
